@@ -1,4 +1,4 @@
-update=Thursday, March 22, 2018 'PMt' 11:57:02 PM
+update=Saturday, March 24, 2018 'PMt' 12:39:50 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../digikey-kicad-library/digikey-symbols
@@ -199,5 +201,5 @@ LibName169=/Users/gc/GitHub/digikey-kicad-library/digikey-symbols/dk_Automotive-
 LibName170=/Users/gc/GitHub/digikey-kicad-library/digikey-symbols/dk_Alarms-Buzzers-and-Sirens
 LibName171=/Users/gc/GitHub/digikey-kicad-library/digikey-symbols/dk_Addressable-Specialty
 LibName172=libs/3PDT
-[general]
-version=1
+LibName173=libs/MAX1044ESA+
+LibName174=libs/1N4742ATR

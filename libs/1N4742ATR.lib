@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1N4742ATR
+#/829831/35531/2.24/2/4/Zener Diode
+DEF 1N4742ATR Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L BNN
+F1 "1N4742ATR" 400 250 50 H V L BNN
+F2 "DIOAD1413W86L463D238" 400 150 50 H I L BNN
+F3 "http://uk.rs-online.com/web/p/products/8050075" 400 50 50 H I L BNN
+F4 "Diode, Fairchild, 1N4742ATR Fairchild 1N4742ATR Zener Diode, 12V 5% 1 W Through Hole 2-Pin DO-41" 400 -50 50 H I L BNN "Description"
+F5 "" 400 -150 50 H I L BNN "Height"
+F6 "Fairchild Semiconductor" 400 -250 50 H I L BNN "Manufacturer_Name"
+F7 "1N4742ATR" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "8050075" 400 -450 50 H I L BNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/8050075" 400 -550 50 H I L BNN "RS Price/Stock"
+DRAW
+X K 1 0 0 200 R 50 50 0 0 B
+X A 2 600 0 200 L 50 50 0 0 B
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+ENDDRAW
+ENDDEF
+#
+#End Library

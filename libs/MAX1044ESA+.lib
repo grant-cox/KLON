@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MAX1044ESA+
+#/640/35531/2.24/8/3/Integrated Circuit
+DEF MAX1044ESA+ IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MAX1044ESA+" 1050 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 100 50 H I L CNN
+F3 "http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf" 1050 0 50 H I L CNN
+F4 "Charge Pump Switched Cap 20mA 5V" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "Maxim Integrated" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MAX1044ESA+" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "7328481P" 1050 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/7328481P" 1050 -600 50 H I L CNN "RS Price/Stock"
+DRAW
+X BOOST 1 0 0 200 R 50 50 0 0 B
+X CAP+ 2 0 -100 200 R 50 50 0 0 B
+X GND 3 0 -200 200 R 50 50 0 0 B
+X CAP- 4 0 -300 200 R 50 50 0 0 B
+X V+ 8 1200 0 200 L 50 50 0 0 B
+X OSC 7 1200 -100 200 L 50 50 0 0 B
+X LV 6 1200 -200 200 L 50 50 0 0 B
+X VOUT 5 1200 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
