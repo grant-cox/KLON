@@ -1,15 +1,15 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 116)
-    (no_connects 116)
+    (links 122)
+    (no_connects 122)
     (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
     (zones 0)
-    (modules 68)
-    (nets 46)
+    (modules 69)
+    (nets 48)
   )
 
   (page A4)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFF77F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -136,6 +136,8 @@
   (net 43 "Net-(SW1-Pad7)")
   (net 44 "Net-(SW1-Pad8)")
   (net 45 "Net-(SW1-Pad9)")
+  (net 46 "Net-(IC1-Pad6)")
+  (net 47 "Net-(IC1-Pad7)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -171,6 +173,8 @@
     (add_net "Net-(C9-Pad2)")
     (add_net "Net-(D1-Pad1)")
     (add_net "Net-(D1-Pad2)")
+    (add_net "Net-(IC1-Pad6)")
+    (add_net "Net-(IC1-Pad7)")
     (add_net "Net-(J1-Pad2)")
     (add_net "Net-(J2-Pad2)")
     (add_net "Net-(R12-Pad1)")
@@ -192,7 +196,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB7363F)
-    (at 157.48 152.4)
+    (at 152.4 156.21)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
     (path /5AB464FC)
@@ -229,7 +233,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB73645)
-    (at 157.48 156.21)
+    (at 153.67 162.56)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
     (path /5AB46A7D)
@@ -266,7 +270,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB7364B)
-    (at 165.1 153.67)
+    (at 171.53 167.64)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
     (path /5AB46B41)
@@ -303,7 +307,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB73651)
-    (at 167.64 157.48)
+    (at 182.96 171.45)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
     (path /5AB46C22)
@@ -340,7 +344,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB73657)
-    (at 161.29 156.21)
+    (at 174.07 153.67)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
     (path /5AB46E78)
@@ -377,7 +381,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB7365D)
-    (at 115.57 82.55)
+    (at 37.37 41.91)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5AB49F15)
@@ -565,7 +569,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB73669)
-    (at 156.21 154.94)
+    (at 182.96 118.11)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
     (path /5AB47EF8)
@@ -602,7 +606,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB7366F)
-    (at 120.65 73.66)
+    (at 55.88 44.45)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5AB4A19A)
@@ -753,7 +757,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB73675)
-    (at 167.64 151.13)
+    (at 165.18 177.8)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor")
     (path /5AB70457)
@@ -827,7 +831,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB73681)
-    (at 124.46 78.74)
+    (at 41.18 63.5)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5AB4B4C3)
@@ -978,7 +982,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB73687)
-    (at 162.56 147.32)
+    (at 163.91 156.21)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor")
     (path /5AB4B7F5)
@@ -1015,7 +1019,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB7368D)
-    (at 160.02 148.59)
+    (at 171.53 147.32)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor")
     (path /5AB4C074)
@@ -1052,7 +1056,7 @@
   )
 
   (module Capacitors_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB73693)
-    (at 161.29 153.67)
+    (at 134.7 107.95)
     (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor")
     (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor")
     (path /5AB57E21)
@@ -1089,7 +1093,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB73699)
-    (at 115.57 74.93)
+    (at 309.88 93.98)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5AB774DF)
@@ -1240,7 +1244,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB7369F)
-    (at 121.92 76.2)
+    (at 312.96 102.87)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5AB76B08)
@@ -1391,7 +1395,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB736A5)
-    (at 120.65 80.01)
+    (at 304.07 102.87)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5AB79390)
@@ -1542,7 +1546,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB736AB)
-    (at 119.38 83.82)
+    (at 51.34 63.5)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5AB59AA2)
@@ -1693,7 +1697,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB736B1)
-    (at 127 78.74)
+    (at 298.99 93.98)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5AB76730)
@@ -1844,7 +1848,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB736B7)
-    (at 125.73 82.55)
+    (at 318.77 93.98)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5AB7B602)
@@ -1995,7 +1999,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5AB736BD)
-    (at 123.19 83.82)
+    (at 281.21 101.6)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5AB74E72)
@@ -2187,7 +2191,7 @@
   )
 
   (module Diodes_THT:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392E) (tstamp 5AB736C9)
-    (at 158.75 154.94)
+    (at 90.17 160.02)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /5AB4A68C)
@@ -2230,7 +2234,7 @@
   )
 
   (module Diodes_THT:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392E) (tstamp 5AB736CF)
-    (at 97.79 134.62)
+    (at 269.24 107.95)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /5AB4A74E)
@@ -2273,7 +2277,7 @@
   )
 
   (module digikey-footprints:DO-41 (layer F.Cu) (tedit 5992FD96) (tstamp 5AB736D5)
-    (at 97.79 151.13)
+    (at 281.94 85.09)
     (path /5AB77173)
     (fp_text reference D4 (at 4.95 -3.65) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2307,7 +2311,7 @@
   )
 
   (module digikey-footprints:DO-41 (layer F.Cu) (tedit 5992FD96) (tstamp 5AB736DB)
-    (at 83.82 143.51)
+    (at 284.17 93.98)
     (path /5AB76E51)
     (fp_text reference D5 (at 4.95 -3.65) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2462,7 +2466,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB736F5)
-    (at 156.21 81.28)
+    (at 205.74 41.91)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB462D4)
@@ -2500,7 +2504,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB736FB)
-    (at 158.75 87.63)
+    (at 208.28 48.26)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB46B19)
@@ -2538,7 +2542,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73701)
-    (at 173.99 81.28)
+    (at 223.52 41.91)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB46B95)
@@ -2576,7 +2580,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73707)
-    (at 173.99 86.36)
+    (at 223.52 46.99)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB46BCE)
@@ -2614,7 +2618,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB7370D)
-    (at 172.72 91.44)
+    (at 222.25 52.07)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB4655F)
@@ -2652,7 +2656,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73713)
-    (at 142.24 80.01)
+    (at 191.77 40.64)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB46F3E)
@@ -2690,7 +2694,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73719)
-    (at 189.23 82.55)
+    (at 238.76 43.18)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB46EE8)
@@ -2728,7 +2732,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB7371F)
-    (at 189.23 87.63)
+    (at 238.76 48.26)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB47D78)
@@ -2766,7 +2770,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73725)
-    (at 187.96 92.71)
+    (at 237.49 53.34)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB47E41)
@@ -2804,7 +2808,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB7372B)
-    (at 142.24 83.82)
+    (at 191.77 44.45)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB4ABD7)
@@ -2842,7 +2846,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73731)
-    (at 158.75 91.44)
+    (at 208.28 52.07)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB47DDE)
@@ -2880,7 +2884,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73737)
-    (at 143.51 87.63)
+    (at 193.04 48.26)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB71C34)
@@ -2918,7 +2922,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB7373D)
-    (at 189.23 97.79)
+    (at 238.76 58.42)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB7090F)
@@ -2956,7 +2960,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73743)
-    (at 173.99 97.79)
+    (at 223.52 58.42)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB7084F)
@@ -2994,7 +2998,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73749)
-    (at 191.77 102.87)
+    (at 241.3 63.5)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB4A498)
@@ -3032,7 +3036,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB7374F)
-    (at 180.34 106.68)
+    (at 229.87 67.31)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB4DD15)
@@ -3070,7 +3074,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73755)
-    (at 165.1 76.2)
+    (at 214.63 36.83)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB56EC8)
@@ -3108,7 +3112,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB7375B)
-    (at 187.96 110.49)
+    (at 237.49 71.12)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB4B934)
@@ -3146,7 +3150,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73761)
-    (at 167.64 104.14)
+    (at 217.17 64.77)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB4B6DB)
@@ -3184,7 +3188,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73767)
-    (at 172.72 113.03)
+    (at 222.25 73.66)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB4BFF5)
@@ -3222,7 +3226,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB7376D)
-    (at 154.94 73.66)
+    (at 204.47 34.29)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB5767E)
@@ -3260,7 +3264,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73773)
-    (at 166.37 92.71)
+    (at 215.9 53.34)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB4BF77)
@@ -3298,7 +3302,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73779)
-    (at 171.45 97.79)
+    (at 220.98 58.42)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB57722)
@@ -3336,7 +3340,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB7377F)
-    (at 170.18 95.25)
+    (at 219.71 55.88)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB58A4B)
@@ -3374,7 +3378,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73785)
-    (at 166.37 86.36)
+    (at 215.9 46.99)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB594C4)
@@ -3412,7 +3416,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB7378B)
-    (at 161.29 86.36)
+    (at 210.82 46.99)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB5A0FD)
@@ -3450,7 +3454,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73791)
-    (at 179.07 101.6)
+    (at 260.35 97.79)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB79228)
@@ -3488,7 +3492,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB73797)
-    (at 182.88 78.74)
+    (at 232.41 39.37)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB68D44)
@@ -3526,7 +3530,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB7379D)
-    (at 179.07 97.79)
+    (at 228.6 58.42)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB68C73)
@@ -3564,7 +3568,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5AB737A3)
-    (at 200.66 114.3)
+    (at 255.27 107.95)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5AB7B365)
@@ -3781,7 +3785,7 @@
   )
 
   (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C78D6B) (tstamp 5AB737E4)
-    (at 208.28 153.67)
+    (at 172.72 114.3)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /5AB46799)
@@ -3833,7 +3837,7 @@
   )
 
   (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C78D6B) (tstamp 5AB737F0)
-    (at 191.77 153.67)
+    (at 127 95.25)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /5AB55FB4)
@@ -3885,14 +3889,14 @@
   )
 
   (module projectfootprints:DIODEAD1413W86L463D238 (layer F.Cu) (tedit 5AB67F14) (tstamp 5AB73E6C)
-    (at 95.25 139.7)
+    (at 296.04 120.65 180)
     (descr "DO-204AL (DO-41)")
     (tags "Zener Diode")
     (path /5AB799A2)
-    (fp_text reference Z1 (at 0 0) (layer F.SilkS)
+    (fp_text reference Z1 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
-    (fp_text value 1N4742ATR (at 0 0) (layer F.SilkS) hide
+    (fp_text value 1N4742ATR (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (fp_line (start -1.038 -1.538) (end 15.137 -1.538) (layer Dwgs.User) (width 0.05))
@@ -3913,10 +3917,70 @@
     (fp_line (start 4.735 0) (end 5.922 -1.188) (layer F.SilkS) (width 0.2))
     (fp_line (start 1.138 0) (end 4.735 0) (layer F.SilkS) (width 0.2))
     (fp_line (start 9.365 0) (end 12.962 0) (layer F.SilkS) (width 0.2))
-    (pad 1 thru_hole rect (at 0 0 90) (size 1.575 1.575) (drill 1.05) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole rect (at 0 0 270) (size 1.575 1.575) (drill 1.05) (layers *.Cu *.Mask F.SilkS)
       (net 26 V+))
-    (pad 2 thru_hole circle (at 14.1 0 90) (size 1.575 1.575) (drill 1.05) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole circle (at 14.1 0 270) (size 1.575 1.575) (drill 1.05) (layers *.Cu *.Mask F.SilkS)
       (net 9 GND))
+  )
+
+  (module Housings_DIP:DIP-8_W7.62mm_Socket (layer F.Cu) (tedit 59C78D6B) (tstamp 5AB7FC19)
+    (at 284.48 106.68)
+    (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
+    (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
+    (path /5AB74513)
+    (fp_text reference IC1 (at 3.81 -2.33) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MAX1044ESA+ (at 3.81 9.95) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_arc (start 3.81 -1.33) (end 2.81 -1.33) (angle -180) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.635 -1.27) (end 6.985 -1.27) (layer F.Fab) (width 0.1))
+    (fp_line (start 6.985 -1.27) (end 6.985 8.89) (layer F.Fab) (width 0.1))
+    (fp_line (start 6.985 8.89) (end 0.635 8.89) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.635 8.89) (end 0.635 -0.27) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.635 -0.27) (end 1.635 -1.27) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.27 -1.33) (end -1.27 8.95) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.27 8.95) (end 8.89 8.95) (layer F.Fab) (width 0.1))
+    (fp_line (start 8.89 8.95) (end 8.89 -1.33) (layer F.Fab) (width 0.1))
+    (fp_line (start 8.89 -1.33) (end -1.27 -1.33) (layer F.Fab) (width 0.1))
+    (fp_line (start 2.81 -1.33) (end 1.16 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.16 -1.33) (end 1.16 8.95) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1.16 8.95) (end 6.46 8.95) (layer F.SilkS) (width 0.12))
+    (fp_line (start 6.46 8.95) (end 6.46 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start 6.46 -1.33) (end 4.81 -1.33) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.33 -1.39) (end -1.33 9.01) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.33 9.01) (end 8.95 9.01) (layer F.SilkS) (width 0.12))
+    (fp_line (start 8.95 9.01) (end 8.95 -1.39) (layer F.SilkS) (width 0.12))
+    (fp_line (start 8.95 -1.39) (end -1.33 -1.39) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.55 -1.6) (end -1.55 9.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.55 9.2) (end 9.15 9.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 9.15 9.2) (end 9.15 -1.6) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 9.15 -1.6) (end -1.55 -1.6) (layer F.CrtYd) (width 0.05))
+    (fp_text user %R (at 3.81 3.81) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+      (net 26 V+))
+    (pad 5 thru_hole oval (at 7.62 7.62) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+      (net 26 V+))
+    (pad 2 thru_hole oval (at 0 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+      (net 25 "Net-(C17-Pad2)"))
+    (pad 6 thru_hole oval (at 7.62 5.08) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+      (net 46 "Net-(IC1-Pad6)"))
+    (pad 3 thru_hole oval (at 0 5.08) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+      (net 9 GND))
+    (pad 7 thru_hole oval (at 7.62 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+      (net 47 "Net-(IC1-Pad7)"))
+    (pad 4 thru_hole oval (at 0 7.62) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+      (net 9 GND))
+    (pad 8 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+      (net 26 V+))
+    (model ${KISYS3DMOD}/Housings_DIP.3dshapes/DIP-8_W7.62mm_Socket.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
 )

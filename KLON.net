@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/gc/GitHub/KLON/KLON.sch)
-    (date "Sunday, March 25, 2018 'AMt' 01:35:22 AM")
+    (date "Sunday, March 25, 2018 'PMt' 03:09:56 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -349,7 +349,7 @@
       (tstamp 5AB71C34))
     (comp (ref IC1)
       (value MAX1044ESA+)
-      (footprint SOIC127P600X175-8N)
+      (footprint Housings_DIP:DIP-8_W7.62mm_Socket)
       (datasheet http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf)
       (fields
         (field (name Description) "Charge Pump Switched Cap 20mA 5V")
