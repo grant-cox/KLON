@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/gc/GitHub/KLON/KLON.sch)
-    (date "Sunday, March 25, 2018 'PMt' 03:09:56 PM")
+    (date "Sunday, March 25, 2018 'PMt' 09:38:40 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -720,16 +720,16 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib"))
-    (library (logical MAX1044ESA+)
-      (uri /Users/gc/GitHub/KLON/libs/MAX1044ESA+.lib))
-    (library (logical KLON-cache)
-      (uri /Users/gc/GitHub/KLON/KLON-cache.lib))
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical linear)
       (uri "/Library/Application Support/kicad/library/linear.lib"))
+    (library (logical device)
+      (uri "/Library/Application Support/kicad/library/device.lib"))
+    (library (logical KLON-cache)
+      (uri /Users/gc/GitHub/KLON/KLON-cache.lib))
+    (library (logical MAX1044ESA+)
+      (uri /Users/gc/GitHub/KLON/libs/MAX1044ESA+.lib))
     (library (logical 1N4742ATR)
       (uri /Users/gc/GitHub/KLON/libs/1N4742ATR.lib)))
   (nets
