@@ -361,8 +361,6 @@ F 3 "" H 4350 2650 50  0001 C CNN
 	1    4350 2650
 	0    1    1    0   
 $EndComp
-Text Notes 3200 2000 0    79   ~ 0
-TODO
 $Comp
 L D D2
 U 1 1 5AB4A68C
